@@ -1017,54 +1017,7 @@
       }
     }
 
-    const wordsGuessable = ["word", "snap", "dogs", "play", "tree", "book", "song", "film", "dart", "moon", "cake", "desk",
-  "face",
-  "ball",
-  "spin",
-  "rain",
-  "math",
-  "fire",
-  "baby",
-  "door",
-  "gold",
-  "milk",
-  "corn",
-  "game",
-  "home",
-  "lake",
-  "leaf",
-  "time",
-  "wine",
-  "rock",
-  "road",
-  "desk",
-  "shop",
-  "jazz",
-  "beef",
-  "chip",
-  "blue",
-  "card",
-  "coin",
-  "duck",
-  "fish",
-  "girl",
-  "hair",
-  "idea",
-  "jump",
-  "key",
-  "line",
-  "mint",
-  "nest",
-  "oval",
-  "palm",
-  "quiz",
-  "rose",
-  "seed",
-  "team",
-  "user",
-  "vase",
-  "walk",
-  "zone"]
+    const wordsGuessable = ["barn", "bath", "bees", "belt", "bird", "boat", "bone", "bush", "cage", "cake", "calf", "card", "cash", "coal", "coat", "corn", "curl", "dart", "deck", "dice", "dirt", "dust", "face", "fact", "film", "fire", "flea", "foam", "fold", "food", "frog", "gaze", "gift", "girl", "glow", "goal", "goat", "gold", "golf", "hair", "harp", "heel", "herb", "hill", "hope", "hour", "hugs", "idea", "iron", "jazz", "juke", "jump", "kiss", "knob", "lace", "lamp", "leak", "left", "lion", "loaf", "lock", "love", "lung", "mail", "mall", "math", "maze", "meat", "moon", "nail", "nest", "oval", "palm", "paws", "pear", "pink", "pool", "pull", "quiz", "word", "snap", "dogs", "play", "tree", "book", "song", "film", "dart", "moon", "cake", "desk", "face", "ball", "spin", "rain", "math", "fire", "baby", "door", "gold", "milk", "corn", "game", "home", "lake", "leaf", "time", "wine", "rock", "road", "desk", "shop", "jazz", "beef", "chip", "blue", "card", "coin", "duck", "fish", "girl", "hair", "idea", "jump", "key", "line", "mint", "nest", "oval", "palm", "quiz", "rose", "seed", "team", "user", "vase", "walk", "zone"]
 
-    const wordsAcceptedAsInput = [  "sword",  "pans",  "gods",  "paly",  "rete",  "kobo",  "nogs",  "film",  "trad",  "mono",  "cake",  "desk",  "cafe",  "ball",  "snip",  "rani",  "math",  "rife",  "babe",  "rode",  "gold",  "milk",  "corn",  "mega",  "home",  "kale",  "alef",  "emit",  "wine",  "cork",  "road",  "desk",  "posh",  "faze",  "beef",  "chip",  "blue",  "card",  "coin",  "duck",  "fish",  "girl",  "hair",  "aide",  "jump",  "key",  "lien",  "mint",  "sent",  "oval",  "palm",  "quiz",  "rose",  "seed",  "mate",  "user",  "vase",  "walk",  "zone"]
-</script>
+    const wordsAcceptedAsInput = ["iron", "lily", "bell", "cube", "dawn", "vein", "pint", "foxy", "flap", "lion", "puck", "rust", "maze", "sofa", "chop", "slim", "spin", "yoga", "slip", "soap", "vest", "wisp", "whip", "slaw", "tuna", "yawn", "yolk", "zing", "twig", "wisp", "chip", "desk", "play", "film", "gold", "cake", "leaf", "rain", "team", "vase", "walk", "zone", "baby", "door", "fire", "home", "milk", "rock", "shop", "zone", "chip", "desk", "leaf", "time", "ball", "coin", "duck", "fish", "girl", "hair", "idea", "jump", "key", "mint", "nest", "oval", "rose", "seed", "user", "wine", "rock", "road", "desk", "shop", "jazz", "beef", "chip", "blue", "card", "coin", "duck", "fish", "girl", "hair", "idea", "jump", "key", "mint", "nest", "oval", "rose", "seed", "user", "wine", "yolk", "zing", "twig", "whip", "vein", "wisp", "odor", "okay", "oven", "page", "pain", "park", "path", "paws", "peak", "pear", "peas", "pest", "pick", "pile", "pink", "pipe", "plan", "play", "plot", "plug", "pond", "poop", "pork", "port", "pose", "post", "pour", "pram", "prat", "pray", "pull", "pump", "punk", "punt", "pure", "push", "quid", "quit", "quiz", "race", "raft", "rage", "rail", "rain", "rake", "rank", "rare", "rate", "reap", "rear", "redo", "reed", "reef", "reek", "rest", "rice", "rich", "ride", "ring", "risk", "road", "rock", "role", "roof", "room", "root", "rose", "rude", "rule", "rush", "rust", "sack", "safe", "saga", "sage", "said", "sail", "salt", "same", "sand", "sane", "save", "scan", "scar", "seal", "seat", "seed", "seek", "seem", "seen", "self", "sell", "send", "sent", "shag", "shed", "shoe", "shop", "shot", "show", "shun", "sick", "side", "sign", "silk", "sink", "site", "size", "skew", "skin", "skip", "slap", "slim", "slip", "slot", "slow", "slug", "smog", "smug", "snag", "snap", "snip", "snob", "snow", "soak", "soap", "sock", "sofa", "soft", "soil", "sold", "sole", "some", "song", "soon", "sort", "soul", "soup", "sour", "spam", "span", "spar", "spat", "spin", "spit", "spot", "spud", "stun", "such", "junk", "lamb", "lion", "lips", "list", "lock", "lung", "mail", "maze", "meat", "mice", "milk", "mist", "mole", "mood", "moon", "moss", "nail", "neck", "nest", "news", "nose", "note", "oath", , "lion", "long", "look", "loom", "lost", "love", "luck", "lung", "maid", "mail", "make", "male", "mall", "many", "math", "meal", "meat", "melt", "menu", "mess", "mice", "milk", "mind", "mine", "mint", "miss", "moon", "mood", "more", "most", "move", "mule", "nail", "name", "navy", "neck", "nest", "news", "next", "nice", "nick", "nose", "note", "noun", "nova", "oath", "oily", "okay", "omen", "omit", "once", "only", "onto", "oral", "oval", "oven", "over", "pace", "pack", "page", "pail", "pain", "pair", "palm", "park", "part", "pass", "past", "path", "paws", "peak", "pear", "peas", "peel", "peer", "pelt", "pens", "pest", "petal", "pick", "pile", "pill", "pink", "pipe", "pity", "plan", "play", "plot", "plug", "plus", "poem", "poke", "pole", "pond", "pony", "pool", "poor", "pope", "port", "pose", "post", "pots", "pour", "pray", "prep", "press", "price", "pride", "prime", "print", "prize", "prom", "prop", "prose", "proud", "prove", "prune", "pull", "pulp", "pump", "able", "acid", "aged", "aide", "airy", "alas", "ally", "also", "anti", "aqua", "arch", "area", "army", "arts", "atom", "auto", "axis", "baby", "back", "bake", "bald", "ball", "band", "bang", "bank", "barn", "base", "bath", "beam", "bean", "bear", "beat", "beef", "beer", "belt", "bend", "best", "beta", "bide", "bike", "bill", "bind", "bird", "bite", "black", "blow", "blue", "boat", "body", "bold", "bomb", "bone", "book", "boom", "boot", "bore", "boss", "both", "bowl", "boxy", "brag", "brim", "buck", "buff", "bulb", "bulk", "bull", "burn", 'vial', 'zone', 'jags', 'dins', 'tare', 'hens', 'lays', 'nogs', 'bogs', 'user', 'sway', 'dime', 'tree', 'hoot', 'tuts', 'eels', 'rift', 'gird', 'rife', 'veto', 'pelf', 'lisp', 'lyre', 'girl', 'mica', 'vile', 'bide', 'jaws', 'gaol', 'pews', 'nest', 'trad', 'woks', 'shes', 'tear', 'jive', 'dews', 'hewn', 'snip', 'chip', 'duck', 'helm', 'dune', 'kale', 'hues', 'bawl', 'tale', 'goes', 'hero', 'gout', 'stow', 'pars', 'erst', 'maws', 'tide', 'teth', 'fist', 'mown', 'pore', 'bent', 'rani', 'math', 'lien', 'swop', 'card', 'memo', 'sled', 'bode', 'road', 'mega', 'nits', 'reap', 'stem', 'yews', 'mass', 'lobe', 'seer', 'rash', 'wits', 'swan', 'deer', 'nard', 'mops', 'fled', 'swat', 'town', 'rile', 'chew', 'mire', 'cist', 'pits', 'wile', 'huts', 'peer', 'shoo', 'deft', 'vent', 'veil', 'mole', 'bees', 'leer', 'paly', 'blue', 'loom', 'clam', 'swap', 'tune', 'gods', 'lair', 'foil', 'gawk', 'inks', 'furs', 'blip', 'flee', 'gibe', 'sash', 'film', 'loco', 'oval', 'rete', 'caws', 'cats', 'kins', 'hike', 'hair', 'vies', 'shun', 'limn', 'hare', 'reed', 'foot', 'hued', 'flux', 'rose', 'peel', 'clad', 'bile', 'dote', 'jugs', 'tush', 'tier', 'puma', 'drab', 'woes', 'sent', 'posh', 'nibs', 'rats', 'hoes', 'vole', 'hilt', 'beef', 'rams', 'peek', 'swim', 'cake', 'coin', 'snot', 'cork', 'hook', 'vise', 'cafe', 'aped', 'whir', 'lent', 'pals', 'whip', 'wisp', 'pans', 'chit', 'rode', 'dreg', 'mono', 'jilt', 'limo', 'brim', 'mint', 'hons', 'meat', 'gold', 'spat', 'skit', 'wren', 'hake', 'bunt', 'boil', 'fizz', 'haze', 'seed', 'lows', 'rims', 'fens']
+    </script>

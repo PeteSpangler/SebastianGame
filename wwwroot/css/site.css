@@ -4,7 +4,7 @@ body {
     align-items: center;
     margin: 0;
     width: 100vw;
-    background: #E6E6FA;
+    background: #547de2;
     font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
     color: #d7dadc;
     overflow: auto;
@@ -12,7 +12,7 @@ body {
 
 button {
     cursor: pointer;
-    outline: none;
+    outline: none;k
     border: unset;
 }
 
@@ -260,7 +260,7 @@ button#playagain {
     align-items: center;
     text-align: center;
     background: #d7dadc;
-    color: lavender;
+    color: black;
     padding: 16px;
     font-weight: bolder;
     border-radius: 4px;
